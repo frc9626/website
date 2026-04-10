@@ -1,7 +1,7 @@
-# email:
-#   url: "mailto:charlie@example.com"
-#   username: "charlie@example.com"
-#   icon: "email-black-envelope.png"
+email:
+  url: "mailto:mitchbarron345@gmail.com"
+  username: "mitchbarron345@gmail.com"
+  icon: "email-black-envelope.png"
 github:
   url: "https://github.com/frc9626"
   username: "frc9626"
