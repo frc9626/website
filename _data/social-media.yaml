@@ -1,0 +1,20 @@
+# email:
+#   url: "mailto:charlie@example.com"
+#   username: "charlie@example.com"
+#   icon: "email-black-envelope.png"
+github:
+  url: "https://github.com/frc9626"
+  username: "frc9626"
+  icon: "GitHub_Invertocat_Black.png"
+thebluealliance:
+  url: "https://www.thebluealliance.com/team/9626"
+  username: "TBA Team 9626"
+  icon: "the-blue-alliance.png"
+instagram:
+  url: "https://www.instagram.com/jagwire_robotics9626"
+  username: "jagwire_robotics9626"
+  icon: "Instagram_Glyph_Black.png"
+tiktok:
+  url: "https://www.tiktok.com/@achs.robotics9626"
+  username: "@achs.robotics9626"
+  icon: "TikTok_Icon_Black_Circle.png"

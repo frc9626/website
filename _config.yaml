@@ -1,0 +1,83 @@
+# Jekyll Configuration File
+
+# Site-wide settings: Site settings made available as site.PARAMETER_NAME variable in every page within the website
+title: JagWire Robotics | Team 9626
+
+# The `>` after `description:` means to ignore line-breaks until next key. If
+#   you wish to omit the line-break after the end of text, use `>-` instead.
+description: >
+  Andover Central High School FIRST Robotics Team 9626, based in Andover, Kansas.
+
+permalink: pretty
+#baseurl: "" # Base URL for the site (e.g., /woodland-corps)
+#url: "https://yourusername.github.io" # Your GitHub Pages URL
+
+# Build settings
+theme: minima
+# markdown: kramdown
+# permalink: pretty
+
+# Minima-specific settings (applicable to Minima v3 and above only)
+#  *All described config keys below should be nested under the top-level
+#   `minima` key.*
+minima:
+  # Minima skin selection. Available skins are:
+  #   * classic            Default, light color scheme.
+  #   * dark               Dark variant of the classic skin.
+  #   * auto               Adaptive skin based on the classic and dark skins.
+  #   * solarized-light    Light variant of solarized color scheme.
+  #   * solarized-dark     Dark variant of solarized color scheme.
+  #   * solarized          Adaptive skin for solarized color scheme skins.
+  skin: auto
+
+  # Specific pages for site navigation.
+  #   If you wish to link only specific pages in the site-navigation, use this
+  #   and list the `path` property (as represented via Liquid) of the pages in
+  #   the order they should be rendered.
+  nav_pages:
+    - sponsor-us.md
+
+  # Minima date format.
+  #   The default value is "%b %d, %Y" (e.g. Nov 14, 2023).
+  #   Refer to https://shopify.github.io/liquid/filters/date/ for valid values
+  # date_format: "%b-%d-%Y"
+
+  # Hide syndication feed subscription link.
+  #   RSS / Atom feed link is always rendered as the last item of social-links
+  #   list. Set below key to `true` to not have the link to feed rendered as
+  #   part of social-links list.
+  # hide_site_feed_link: false
+
+# Collections
+# The key says that our site includes this collection of files, and the mapping associated with them. 
+# output: true, configures an option for that collection, telling Jekyll to create a rendered HTML page from the content of each of these files.
+# Jekyll will look for a _folder in our site repository that shares its name with the collection we defined, but with a preceding underscore in the folder name, 
+# and build the collection from its contents.
+collections:
+  events: # key
+    output: true
+    permalink: /events/:name/
+
+# By default, Jekyll does not publish posts or collection items with a date in the future. This flag explicitly allows future-dated items.
+future: true
+
+# # Plugins
+# plugins:
+#   - jekyll-feed
+#   - jekyll-seo-tag
+
+# # Defaults
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       layout: default
+
+# # Exclude files from the build
+# exclude:
+#   - README.md
+#   - _layout.md
+
+# # Include additional files
+# include:
+#   - .htaccess

@@ -1,0 +1,48 @@
+platinum:
+  description: "Our core supporters who keep the lights on."
+  members:
+    - name: "Charlie"
+      image: "charlie-profile.png"
+      url: "mailto:charlie@example.com"
+      username: "charlie@example.com"
+      icon: "email-black-envelope.png"
+    - name: "Dave"
+      image: "dave-profile.png"
+      url: "mailto:dave@example.com"
+      icon: "email-black-envelope.png"
+
+gold:
+  description: "Our core supporters who keep the lights on."
+  members:
+    - name: "Charlie"
+      image: "charlie-profile.png"
+      url: "mailto:charlie@example.com"
+      username: "charlie@example.com"
+      icon: "email-black-envelope.png"
+
+silver:
+  description: "Our core supporters who keep the lights on."
+  members:
+    - name: "Charlie"
+      image: "charlie-profile.png"
+      url: "mailto:charlie@example.com"
+      username: "charlie@example.com"
+      icon: "email-black-envelope.png"
+
+bronze:
+  description: "Our core supporters who keep the lights on."
+  members:
+    - name: "Charlie"
+      image: "charlie-profile.png"
+      url: "mailto:charlie@example.com"
+      username: "charlie@example.com"
+      icon: "email-black-envelope.png"
+
+patron:
+  description: "Our core supporters who keep the lights on."
+  members:
+    - name: "Charlie"
+      image: "charlie-profile.png"
+      url: "mailto:charlie@example.com"
+      username: "charlie@example.com"
+      icon: "email-black-envelope.png"

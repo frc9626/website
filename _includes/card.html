@@ -1,0 +1,12 @@
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
+<div class="card">
+    <div class="card-image">
+        <img src="{{ include.image | relative_url }}" alt="{{ include.alt | escape }}" />
+    </div>
+    {% if include.description %}
+        <div class="card-content">
+            <p>{{ include.description }}</p>
+        </div>
+    {% endif %}
+</div>

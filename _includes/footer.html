@@ -1,0 +1,47 @@
+<style>
+    .footer-description {
+    font-size: 14px;      /* Makes the text smaller */
+    color: #828282;       /* Makes the text greyed out */
+    line-height: 1.4;     /* Adjusts spacing for readability */
+    text-align: center;    /* This centers the text inside the div */
+    margin: 0 auto;       /* This centers the div itself if it has a set width */
+    width: 100%;          /* Ensures the div spans the full width to make centering visible */
+    }
+
+    .social-links-horizontal {
+    display: flex !important; /* Forces flexbox even if something else is trying to override it */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding: 20px;
+    }
+
+    /* Ensure the images inside the links are always small */
+    .social-links-horizontal a img.social-icon {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    }
+</style>
+
+<footer class="footer">
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <div class="social-links-horizontal">
+        {% for social in site.data.social-media %}
+          {% assign platform = social[1] %}
+            <a href="{{ platform.url }}" target="_blank" rel="noopener noreferrer">
+            <img class="social-icon" src="{{ 'assets/images/social-icons/' | append: platform.icon | relative_url }}" 
+                alt="{{ social[0] }}">
+            </a>
+        {% endfor %}
+      </div>
+    </div>
+
+    <div class="footer-description">
+      <p>{{ site.description | escape }}</p>
+    </div>
+  </div>
+</footer>
