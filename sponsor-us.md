@@ -10,30 +10,11 @@ Support Andover Central High School Robotics. Empower the next generation of eng
     alt="Team 9626 Photo"
 %}
 
-## Platinum Sponsor | $4,000+
+{% for tier in site.data.sponsors.levels %}
+## {{ tier.name | capitalize }} Sponsor - {{ tier.amount }}
 
-- **Prime Recognition:** Large company logo in a prominent location on the Robot
-- **Grand Scale Branding:** Large company logo featured on our team banner
-- **National Exposure:** Public thanks during competition alliance selections (nationally televised)
-- Includes all Gold Sponsor benefits
+  {% for benefit in tier.schedule %}
+  - {{ benefit }}
+  {% endfor %}
 
-## Gold Sponsor | $2,000 – $3,999
-
-- **Robot Branding:** Company name featured on the Robot
-- **Social Reach:** Dedicated company shoutouts on our social media platforms
-- Includes all Silver Sponsor benefits
-
-## Silver Sponsor | $1,000 – $1,999
-
-- **Visual Impact:** Logo printed on team t-shirts and team banner (displayed at all tournaments)
-- **VIP Access:** Personal invitation to attend a local competition
-- Includes all Bronze Sponsor benefits
-
-## Bronze Sponsor | $250 – $999
-
-- **Apparel:** Company name printed on our team t-shirt
-- **Digital Link:** Name and a direct link to your website on our official sponsorship page
-
-## Patron Sponsor | $1 – $249
-
-- Digital Recognition: Name published on our website’s sponsorship page
+{% endfor %}

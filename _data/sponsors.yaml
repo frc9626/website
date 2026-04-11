@@ -1,48 +1,64 @@
-platinum:
-  description: "Our core supporters who keep the lights on."
-  members:
-    - name: "Charlie"
-      image: "charlie-profile.png"
-      url: "mailto:charlie@example.com"
-      username: "charlie@example.com"
-      icon: "email-black-envelope.png"
-    - name: "Dave"
-      image: "dave-profile.png"
-      url: "mailto:dave@example.com"
-      icon: "email-black-envelope.png"
+config:
+  image_base_path: "/assets/images/sponsors/"
+  default_logo: "jagSponsor.png"
 
-gold:
-  description: "Our core supporters who keep the lights on."
-  members:
-    - name: "Charlie"
-      image: "charlie-profile.png"
-      url: "mailto:charlie@example.com"
-      username: "charlie@example.com"
-      icon: "email-black-envelope.png"
-
-silver:
-  description: "Our core supporters who keep the lights on."
-  members:
-    - name: "Charlie"
-      image: "charlie-profile.png"
-      url: "mailto:charlie@example.com"
-      username: "charlie@example.com"
-      icon: "email-black-envelope.png"
-
-bronze:
-  description: "Our core supporters who keep the lights on."
-  members:
-    - name: "Charlie"
-      image: "charlie-profile.png"
-      url: "mailto:charlie@example.com"
-      username: "charlie@example.com"
-      icon: "email-black-envelope.png"
-
-patron:
-  description: "Our core supporters who keep the lights on."
-  members:
-    - name: "Charlie"
-      image: "charlie-profile.png"
-      url: "mailto:charlie@example.com"
-      username: "charlie@example.com"
-      icon: "email-black-envelope.png"
+levels:
+  - name: "platinum"
+    amount: "$4,000+"
+    description: "Our core supporters who keep the lights on."
+    schedule:
+      - "Prime Recognition: Large company logo in a prominent location on the Robot"
+      - "Grand Scale Branding: Large company logo featured on our team banner"
+      - "National Exposure: Public thanks during competition alliance selections (nationally televised)"
+      - "Includes all Gold Sponsor benefits"
+    members:
+      # - name: "Charlie"
+      #   logo: "jagSponsor.png"
+      #   url: "mailto:charlie@example.com"
+  - name: "gold"
+    amount: "$2,000 - $3,999"
+    description: "Our core supporters..."
+    schedule:
+      - "Robot Branding: Company name featured on the Robot"
+      - "Social Reach: Dedicated company shoutouts on our social media platforms"
+      - "Includes all Silver Sponsor benefits"
+    members:
+      - name: "Carl Cunningham"
+        url: "https://hallservices.com"
+      - name: "Gene Haas Foundation"
+        url: "https://www.ghaasfoundation.org/"
+      - name: "The Foundation for Andover Schools"
+        logo: "jagSponsor.png"
+        url: "https://fundandoverschools.org"
+  - name: "silver"
+    amount: "$1,000 - $1,999"
+    description: "Our core supporters..."
+    schedule:
+      - "Visual Impact: Logo printed on team t-shirts and team banner (displayed at all tournaments)"
+      - "VIP Access: Personal invitation to attend a local competition"
+      - "Includes all Bronze Sponsor benefits"
+    members:
+      - name: "NIAR"
+        logo: "jagSponsor.png"
+        url: "https://www.wichita.edu/industry_and_defense/NIAR/"
+  - name: "bronze"
+    amount: "$250 - $999"
+    description: "Our core supporters..."
+    schedule:
+      - "Apparel: Company name printed on our team t-shirt"
+      - "Digital Link: Name and a direct link to your website on our official sponsorship page"
+    members:
+      - name: "CNC Solutions"
+        logo: "jagSponsor.png"
+        url: "https://www.cncsolutionsllc.com/"
+      - name: "Star Lumber"
+        logo: "jagSponsor.png"
+        url: "https://www.starlumber.com/"
+  - name: "patron"
+    amount: "$1 - $249"
+    description: "Our core supporters..."
+    schedule:
+      - "Digital Recognition: Name published on our website's sponsorship page"
+    members:
+      - name: "Lusk Living Trust"
+        logo: "jagSponsor.png"
