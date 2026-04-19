@@ -3,6 +3,8 @@ layout: page
 title: Sponsors
 ---
 
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+
 <style>
   .post-title { display: none; }
 </style>
@@ -12,11 +14,6 @@ title: Sponsors
 We are incredibly grateful for the generous support of our sponsors. Your contributions provide the essential resources and opportunities that drive our success and empower our team to reach new heights.
 
 Thank you for investing in our mission and being a vital part of our community!
-
-{% include card.html
-    image="assets/images/2026-city-of-fountains-regional/55191192597_c7bcdf48cf_o.jpg"
-    alt="Team 9626 Photo"
-%}
 
 <div class="sponsors-container">
   {% for tier in site.data.sponsors.levels %}
