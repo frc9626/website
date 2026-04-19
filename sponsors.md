@@ -3,6 +3,10 @@ layout: page
 title: Sponsors
 ---
 
+<style>
+  .post-title { display: none; }
+</style>
+
 # Thank You to Our Sponsors
 
 We are incredibly grateful for the generous support of our sponsors. Your contributions provide the essential resources and opportunities that drive our success and empower our team to reach new heights.
