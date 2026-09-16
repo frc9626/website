@@ -15,3 +15,9 @@ ACHS robotics is more than just building robots, it's about learning how to thin
 Every member on our team brings unique skills, ideas, and perspectives to the team. Whether working independently or side by side, we rely on trust, communication, and mutual support to succeed. This structure allows us to work efficiently while maintaining consistency and accountability across the team. As a result, our team continues to improve and excel with each season.
 
 Our team operates in a fast-paced, hands-on environment where ideas are tested, refined, and improved. Students take ownership of their work, learn from mistakes, and apply feedback to real engineering challenges. This process helps us develop strong technical skills while maintaining a high standard of consistency and reliability throughout the season.
+
+{% include button.html
+    href="https://hcb.hackclub.com/donations/start/9626-jagwires"
+    text="Donate to Team 9626"
+    open_new_tab=true
+%}

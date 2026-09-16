@@ -56,7 +56,7 @@
 
 .card-actions a,
 .card-actions button {
-  background: #4a7c59;
+  background: #E53935;
   color: #fff;
   padding: 0.5em 1em;
   border-radius: 6px;
@@ -68,7 +68,12 @@
 
 .card-actions a:hover,
 .card-actions button:hover {
-  background: #355c3a;
+  background: #e2716f;
+}
+
+.donate-action {
+  justify-content: center;
+  margin: 1.5em auto;
 }
 
 .photo-credit {
